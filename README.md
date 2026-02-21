@@ -24,27 +24,44 @@ Getting Started
 linear-algebra-python/
 │
 ├── README.md
+
 ├── requirements.txt
+
 ├── matrices/
+
 │   ├── matrix_operations.py
+
 │   ├── matrix_demo.ipynb
+
+
 │
+
 ├── vector_space/
+
 │   ├── vector_operations.py
+
 │   ├── vector_demo.ipynb
+
 │
+
 ├── eigenvalues_eigenvectors/
+
 │   ├── eigen_solver.py
+
 │   ├── eigen_demo.ipynb
 │
+
 ├── transformations/
+
+
 │   ├── linear_transform.py
+
 │   ├── transform_demo.ipynb
+
 │
+
 └── utils/
-    ├── plot_helpers.py
-
-
+├── plot_helpers.py
     Project Ideas inside repo
 
 Matrix Operations
