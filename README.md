@@ -74,14 +74,3 @@ Visualization of transformations
 Linear Transformations
 
 2D/3D transformation visualization
-
-Rotation, scaling, reflection
-
-Use Matplotlib / Plotly
-
-Interactive Jupyter Notebooks
-
-Each concept with code + output + visualization
-
-Step-by-step explanation
-
