@@ -20,5 +20,68 @@ Getting Started
 2. Install dependencies: 
 3. Run notebooks to explore concepts
 
-Author
-Pollob
+
+linear-algebra-python/
+│
+├── README.md
+├── requirements.txt
+├── matrices/
+│   ├── matrix_operations.py
+│   ├── matrix_demo.ipynb
+│
+├── vector_space/
+│   ├── vector_operations.py
+│   ├── vector_demo.ipynb
+│
+├── eigenvalues_eigenvectors/
+│   ├── eigen_solver.py
+│   ├── eigen_demo.ipynb
+│
+├── transformations/
+│   ├── linear_transform.py
+│   ├── transform_demo.ipynb
+│
+└── utils/
+    ├── plot_helpers.py
+
+
+    Project Ideas inside repo
+
+Matrix Operations
+
+Addition, subtraction, multiplication
+
+Determinant, inverse, rank
+
+Visualization of matrix multiplication
+
+Vector Spaces
+
+Vector addition, scalar multiplication
+
+Dot product, cross product
+
+Projection, orthogonality visualization
+
+Eigenvalues & Eigenvectors
+
+Power method implementation
+
+Diagonalization of matrices
+
+Visualization of transformations
+
+Linear Transformations
+
+2D/3D transformation visualization
+
+Rotation, scaling, reflection
+
+Use Matplotlib / Plotly
+
+Interactive Jupyter Notebooks
+
+Each concept with code + output + visualization
+
+Step-by-step explanation
+
