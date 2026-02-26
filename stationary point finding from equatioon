@@ -1,0 +1,41 @@
+import sympy as sp
+
+# Define variable
+x = sp.symbols('x')
+
+# Input function from user
+f_expr = input("Enter a function in x: ")
+
+# Convert to sympy expression
+f = sp.sympify(f_expr)
+
+# First derivative
+f1 = sp.diff(f, x)
+
+# Second derivative
+f2 = sp.diff(f1, x)
+
+# Solve f'(x) = 0 (stationary points)
+stationary_points = sp.solve(f1, x)
+
+print("\nFunction:", f)
+print("First Derivative:", f1)
+print("Second Derivative:", f2)
+print("Stationary Points:", stationary_points)
+
+# Determine type of stationary points
+for pt in stationary_points:
+    val = f2.subs(x, pt)
+    if val > 0:
+        point_type = "Local Minimum"
+    elif val < 0:
+        point_type = "Local Maximum"
+    else:
+        point_type = "Saddle Point / Inflection"
+    print(f"x = {pt} → {point_type}")
+
+    x**3 - 6*x**2 + 9*x inpute this 
+
+    Stationary Points: [1, 3]
+x = 1 → Local Maximum
+x = 3 → Local Minimum this will be the ans
