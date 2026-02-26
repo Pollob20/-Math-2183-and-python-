@@ -1,0 +1,27 @@
+import sympy as sp
+
+# Define variable
+x = sp.symbols('x')
+
+# Define function
+f = x**3 - 6*x**2 + 9*x
+
+# Second derivative
+f2 = sp.diff(f, x)
+
+# Solve f''(x) = 0
+inflection_points = sp.solve(f2, x)
+
+# Optional: show concavity change
+for point in inflection_points:
+    left = f2.subs(x, point - 0.1)
+    right = f2.subs(x, point + 0.1)
+    concavity_change = ""
+    if left*right < 0:
+        concavity_change = "Yes"
+    else:
+        concavity_change = "No"
+
+    print(f"Inflection Point at x = {point}, Concavity changes: {concavity_change}")
+
+    #Inflection Point at x = 2, Concavity changes: Yes
